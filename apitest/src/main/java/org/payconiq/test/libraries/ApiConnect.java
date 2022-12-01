@@ -49,7 +49,7 @@ public class ApiConnect
 			
 			//getting responseCode
 			int responseCode = ((HttpURLConnection) connection).getResponseCode();
-			System.out.println("Response Code: "+ responseCode); //delete
+			
 			
 			BufferedReader br;
 			
@@ -143,7 +143,7 @@ public class ApiConnect
 			//getting responseCode
 			int responseCode = ((HttpURLConnection) connection).getResponseCode();
 			constant.responsecode = responseCode;   //Storing response code for global use
-			System.out.println(method+" method Response Code: "+ responseCode); //--delete
+			
 			
 			BufferedReader br;
 			
