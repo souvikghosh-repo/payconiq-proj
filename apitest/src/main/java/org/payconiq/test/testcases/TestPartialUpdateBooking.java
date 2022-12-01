@@ -22,9 +22,9 @@ public class TestPartialUpdateBooking
 	
 	
 	/**
-	 * As part of prerequisite, creating a booking to ensure we get proper response while using the getBookings with 
+	 * As part of prerequisite, creating a booking to ensure we get proper response while using the Partial Update with 
 	 * predefined parameter value
-	 * Storing the Parameter for getBooking use,
+	 * Storing the Parameter for partial update use,
 	 * Storing the created bookingID for validation
 	 */
 	@Before

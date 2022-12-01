@@ -13,10 +13,11 @@ public class Executor
     public static void main( String[] args )
     {
         
-        //JUnitCore.runClasses(TestGetBookingId.class);
-        //JUnitCore.runClasses(TestGetBookingIdsByFirstName.class);
+        JUnitCore.runClasses(TestGetBookingId.class);
+        JUnitCore.runClasses(TestGetBookingIdsByFirstName.class);
         JUnitCore.runClasses(TestPartialUpdateBooking.class);
+        JUnitCore.runClasses(TestDeleteBooking.class);
         
-        //System.out.println(rs);
+        
     }
 }
